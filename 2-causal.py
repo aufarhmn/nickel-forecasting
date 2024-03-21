@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Read data from CSV file
-data = pd.read_csv('nickelproduction.csv')
+data = pd.read_csv('Nickel-Price-Production.csv')
 
 # Set 'Year' column as index
 data.set_index('Year', inplace=True)

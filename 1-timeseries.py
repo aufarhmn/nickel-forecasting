@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read data from CSV file
-data = pd.read_csv('nickelprice.csv')
+data = pd.read_csv('Nickel-Price-Production.csv')
 
 # Set 'Year' column as index
 data.set_index('Year', inplace=True)
